@@ -4,13 +4,11 @@ Un script Bash simple pour generer un mot de passe. Le script demande les spéci
 
 ## 🚀 Generer un mot de passe
 
-chmod +x password.sh
-```
 
-Then, generate a password by specifying the desired length. For example, to generate a password containing 12 characters, run:
+Le script genère donc un mot de passe de 12 caractères (condition de sécurité de l'ANSSI)
 
 ```bash
-./password.sh 12
+bash password.sh
 ```
 
 ### Exemple de sortie 
@@ -18,8 +16,3 @@ Then, generate a password by specifying the desired length. For example, to gene
 ```text
 aZ7@kL2!mP9x
 ```
-
-## ⚙️ Requirements
-
-- Linux
-- Bash
