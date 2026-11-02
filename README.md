@@ -1,12 +1,9 @@
-# 🔐 Password Generator
+# 🔐 Générateur de mot de passe
 
-A simple Bash script to generate random passwords directly from your terminal.
+Un script Bash simple pour generer un mot de passe. Le script demande les spécificités du mot de passe (avec/sans caractères speciaux, avec/sans numéro)
 
-## 🚀 Generate a password
+## 🚀 Generer un mot de passe
 
-First, make the script executable:
-
-```bash
 chmod +x password.sh
 ```
 
@@ -16,7 +13,7 @@ Then, generate a password by specifying the desired length. For example, to gene
 ./password.sh 12
 ```
 
-### Example output
+### Exemple de sortie 
 
 ```text
 aZ7@kL2!mP9x
